@@ -1,0 +1,77 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "userName": "Micky",
+      "email": "MICKY@deltaww.com",
+      "src": "https://i.pinimg.com/originals/bb/75/5d/bb755d00f235343189e87cced7ec3fd0.png",
+      "department": "專案管理A",
+      "manager": "",
+      "roles": [
+        "IT_ADMIN",
+        "S&O TEAM",
+        "GENERAL USER"
+      ]
+    },
+    {
+      "id": "2",
+      "userName": "Minnie",
+      "email": "MINNIE@deltaww.com",
+      "src": "https://www.partysuppliesindia.com/cdn/shop/products/2_4ec5aab6-6b06-4ed8-a4e3-af5c8042ba28.jpg?v=1614163478&width=416",
+      "department": "專案管理A",
+      "manager": "Micky",
+      "roles": [
+        "S&O TEAM",
+        "GENERAL USER"
+      ]
+    },
+    {
+      "id": "3",
+      "userName": "Donald",
+      "email": "DONALD@deltaww.com",
+      "src": "https://www.pngitem.com/pimgs/m/22-224483_donald-duck-clipart-donald-duck-laying-down-hd.png",
+      "department": "專案管理A",
+      "manager": "Micky",
+      "roles": [
+        "S&O TEAM",
+        "GENERAL USER"
+      ]
+    },
+    {
+      "id": "4",
+      "userName": "Daisy",
+      "email": "DAISY@deltaww.com",
+      "src": "https://i.pinimg.com/736x/e6/5e/3e/e65e3e424d3d927806f0a718d4b5e392.jpg",
+      "department": "專案管理B",
+      "manager": "Goofy",
+      "roles": [
+        "SERVER TEAM",
+        "GENERAL USER"
+      ]
+    },
+    {
+      "id": "5",
+      "userName": "Pluto",
+      "email": "PLUTO@deltaww.com",
+      "src": "https://clipground.com/images/clipart-of-pluto-16.gif",
+      "department": "專案管理B",
+      "manager": "Goofy",
+      "roles": [
+        "SERVER TEAM",
+        "GENERAL USER"
+      ]
+    },
+    {
+      "id": "6",
+      "userName": "Goofy",
+      "email": "GOOFY@deltaww.com",
+      "src": "https://i.pinimg.com/564x/3b/d4/62/3bd46205dd6c87d3d67a299031c98ac7.jpg",
+      "department": "專案管理B",
+      "manager": "",
+      "roles": [
+        "SERVER TEAM",
+        "GENERAL USER"
+      ]
+    }
+  ]
+}
