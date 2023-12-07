@@ -1,0 +1,52 @@
+.select {
+  --angular-main-color: #bd032d;
+	--angular-transparent-color: rgba(189, 3, 45, 0.5);
+	--input-padding-block: 10px;
+	--input-border-radius: 6px;
+	--border-width: 2px;
+  --gray: #34495e;  
+  --darkgray: #2c3e50;
+}
+
+select {
+  appearance: none;
+  border: 2px solid var(--angular-main-color);
+  box-shadow: none;
+  color: var(--dark-gray);
+  cursor: pointer;
+  flex: 1;
+  padding: 0 1em;  
+  background-color: var(--angular-transparent-color);
+  background-image: none;
+  
+}
+/* Remove IE arrow */
+select::-ms-expand {
+  display: none;
+}
+/* Custom Select wrapper */
+.select {
+  position: relative;
+  display: flex;
+  width: 20em;
+  height: 3em;
+  border-radius: .25em;
+  overflow: hidden;
+}
+/* Arrow */
+.select::after {
+  content: '\25BC';
+  color: var(--gray);
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0.7em;
+  background-color:var(--angular-main-color);
+  transition: .25s all ease;
+  pointer-events: none;
+}
+
+.select:hover::after {
+  color: #fff;
+}
+

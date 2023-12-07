@@ -1,0 +1,10 @@
+<div class="select">
+  <select (change)="onChange($event.target)">
+    <option value="ALL">ALL</option>
+    @for (role of roleList(); track role.id) {
+    <option [value]="role.roleName">
+      {{ role.roleName }}
+    </option>
+    }
+  </select>
+</div>

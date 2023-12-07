@@ -1,0 +1,23 @@
+main {
+  padding:  40px 60px 60px;
+
+  h3 {
+    align-items:  center;
+    display:  flex;
+    justify-content: space-between;
+
+    img {
+      height: 20px;
+      margin-right: 10px;
+    }
+
+    i {
+      background-color: rgba(189, 3, 45, 0.5);
+      padding-inline: 10px;
+    }
+  }
+
+  hr {
+    margin-block: 10px;
+  }
+}

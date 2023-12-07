@@ -1,0 +1,30 @@
+{
+  "department": [
+    {
+      "id": "1",
+      "departmentName": "專案管理A"
+    },
+    {
+      "id": "2",
+      "departmentName": "專案管理B"
+    }
+  ],
+  "roles": [
+    {
+      "id": "1",
+      "roleName": "GENERAL USER"
+    },
+    {
+      "id": "2",
+      "roleName": "IT_ADMIN"
+    },
+    {
+      "id": "3",
+      "roleName": "SERVER TEAM"
+    },
+    {
+      "id": "4",
+      "roleName": "S&O TEAM"
+    }
+  ]
+}
